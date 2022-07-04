@@ -16,7 +16,7 @@
         var player_ = document.getElementById('player_name').value;
         if (player_ == '')
             [
-                player_ = 'Kevin'
+                player_ = 'Max'
             ]
         document.getElementById('user-name').innerHTML = `Player:${player_}`;
 
