@@ -16,7 +16,7 @@
         var player_ = document.getElementById('player_name').value;
         if (player_ == '')
             [
-                player_ = 'Noobmaster69'
+                player_ = 'Kevin'
             ]
         document.getElementById('user-name').innerHTML = `Player:${player_}`;
 
@@ -43,7 +43,7 @@
 
             draw() {
                 c.fillStyle = this.color;
-                c.fillRect(this.x, this.y, this.width, this.height);
+                c.fillRect(this.x, this.y, this.width, this.height)
             }
 
             update() {
