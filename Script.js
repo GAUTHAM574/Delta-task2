@@ -43,8 +43,7 @@
 
             draw() {
                 c.fillStyle = this.color;
-                c.fillRect(this.x, this.y, this.width, this.height)
-                c.drawImage(img, 0, 0);
+                c.fillRect(this.x, this.y, this.width, this.height);
             }
 
             update() {
@@ -68,8 +67,7 @@
 
             draw() {
                 c.fillStyle = this.color;
-                c.fillRect(this.x, this.y, this.width, this.height)
-                c.drawImage(img, 0, 0);
+                c.fillRect(this.x, this.y, this.width, this.height);
             }
 
             update() {
@@ -92,8 +90,7 @@
 
             draw() {
                 c.fillStyle = this.color;
-                c.fillRect(this.x, this.y, this.width, this.height)
-                c.drawImage(img, 0, 0);
+                c.fillRect(this.x, this.y, this.width, this.height);
             }
 
             update() {
@@ -139,7 +136,6 @@
                 c.arc(this.x, this.y, this.radius, 0, 360, false);
                 c.fill();
                 c.closePath();
-                c.drawImage(img, 0, 0);
             }
 
             update() {
