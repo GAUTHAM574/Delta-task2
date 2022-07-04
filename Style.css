@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./start page\ 2.jfif");
+    background-size: cover;
+    background-repeat: none;
+    font-family: 'Arima', cursive;
+    text-align: center;
+}
+
+.font-size-cl {
+    font-size: 50px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    text-align: center;
+    background-color: black;
+    color: blue;
+    font-size: 60px;
+    /* font-weight: bolder;
+    font-weight:bolder; */
+    margin-bottom: 10px;
+}
+
+.start_page {
+    margin-top: 10%;
+    padding: 3%;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 7px;
+}
+
+.welcome-notice {
+    text-align: center;
+}
+
+.player-details {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.player_name_input {
+
+    padding: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: rgb(238, 237, 237);
+    color: black;
+}
+
+.player_name_input:hover {
+    border: 2px solid rgb(24, 116, 255);
+}
+
+.start_game_btn {
+    padding: 0 25px 0 25px;
+    background-color: rgb(59, 149, 234);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+
+.start_game_btn:hover {
+    border: 2px solid rgb(24, 116, 255) !important;
+
+}
+
+.instructions {
+    color: white;
+    margin-top: 10px;
+}
+
+.game {
+    display: none;
+}
+
+.game-screen {
+    width: 70%;
+}
+
+.player-screen {
+    width: 30%;
+    height: fit-content;
+    margin-top: 5%;
+}
+
+.canvas {
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+}
+
+.scory {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hearty {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user-name {
+    color: white;
+}
+
+.scorecard {
+    margin-left: 40%;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    background-color: #96D4D4;
+}
+
+
+#game-screen {
+    margin-left: 5%;
+}

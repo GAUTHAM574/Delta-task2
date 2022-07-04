@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fall Ball youtube</title>
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="heading" id="heading">*** FALL BALL ***</div>
+    <div class="d-flex">
+        <div class="start_page" id="start_page">
+            <h2 style="color:white" class="welcome-notice">Welcome to the game</h2>
+            <div class="player-details">
+                <input class="player_name_input" id="player_name" placeholder="Player name" type="text">
+                <button class="start_game_btn" id="start_btn">START</button>
+            </div>
+            <div id="instructions" class="instructions">
+                <h3>*INSTRUCTION*</h3>
+                <div>->Use Left and Right Arrows for movement</div>
+                <div>->You will have 3 lives play accordingly</div>
+                <div>->Red floor indicates heart your life will increase by 1</div>
+                <div>->Green floor indicates death your life will decrease by 1</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="game" id="game">
+        <div id="game-screen" class="game-screen"><canvas id="canvas" class="canvas" height="100%"></canvas></div>
+
+        <div id="player-screen" class="player-screen">
+            <h2 class="scory font-size-cl">Score:<span id="score">0</span></h2>
+            <h2 class="hearty font-size-cl">Hearts : 3</h2>
+            <h1 id="user-name" class="user-name font-size-cl"></h1>
+            <div class="scorecard">
+                <table cellpadding="10px">
+                    <thead>
+                        <tr>
+                            <th>Score Board</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./Script.js"></script>
+</body>
+
+</html>
