@@ -233,6 +233,7 @@
                 //collision
                 if ((player.y + player.radius >= floor.y) && (player.y - player.radius <= floor.y + floor.height)) {
                     if ((player.x + player.radius > floor.x) && (player.x + player.radius < floor.x + floor.width)) {
+                        player.y=floor.y-floor.height+player.radius;
                         player.gravity = -floor.vel;
                         player.exgravity = 0;
                         //heart pickups
